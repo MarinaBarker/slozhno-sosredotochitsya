@@ -1,0 +1,144 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+:root.theme_light {
+  --bg-color: #fff1f7;
+  --text-color: #353430;
+  --text-color-second: #32312D66;
+  --accent-color: #FF8DCB;
+  --focus-color: #FFC2E6;
+  --shadow-color: #FF0070;
+}
+
+.page {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  background-image: url(../images/cover-image-light.png);
+  background-attachment: fixed;  
+}
+
+.theme_light .decorated-zone::before {
+  border-inline-end: 1px solid var(--text-color);
+  border-block-start: 1px solid var(--text-color);
+}
+
+.theme_light .decorated-zone::after {
+  border-inline-start: 1px solid var(--text-color);
+  border-block-end: 1px solid var(--text-color);
+}
+
+.theme_light .decorated {
+  display: none;
+}
+
+.theme_light .header__title {
+  color: var(--focus-color);
+  text-shadow: 4px 4px 0 var(--shadow-color);
+}
+
+.theme_light .title {
+  color: var(--text-color);
+}
+
+.theme_light .content-title {
+  color: var(--text-color);
+}
+
+.theme_light .title-decor {
+  color: var(--text-color);
+}
+
+.theme_light .footer-title {
+  color: var(--focus-color);
+  text-shadow: 2px 2px 0 var(--shadow-color);
+}
+
+.theme_light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
+.theme_light .header__theme-menu-button_active {
+  outline: 1px solid var(--text-color);
+}
+
+.theme_light .header__theme-menu-button:hover {
+  outline: 1px solid var(--text-color-second);
+}
+
+.theme_light .header__theme-menu-button:focus {
+  outline: none;
+  border-bottom: 1px solid var(--text-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --bg-color: #fff1f7;
+  --text-color: #353430;
+  --text-color-second: #32312D66;
+  --accent-color: #FF8DCB;
+  --focus-color: #FFC2E6;
+  --shadow-color: #FF0070;
+}
+}
+
+.page {
+  background-image: url(../images/cover-image-light.png);
+  background-attachment: fixed; 
+}
+
+.decorated-zone::before {
+  border-inline-end: 1px solid var(--text-color);
+  border-block-start: 1px solid var(--text-color);
+}
+
+.decorated-zone::after {
+  border-inline-start: 1px solid var(--text-color);
+  border-block-end: 1px solid var(--text-color);
+}
+
+.decorated {
+  display: none;
+}
+
+.header__title {
+  color: var(--focus-color);
+  text-shadow: 4px 4px 0 var(--shadow-color);
+}
+
+.title {
+  color: var(--text-color);
+}
+
+.content-title {
+  color: var(--text-color);
+}
+
+.title-decor {
+  color: var(--text-color);
+}
+
+.footer-title {
+  color: var(--focus-color);
+  text-shadow: 2px 2px 0 var(--shadow-color);
+}
+
+.header__theme-menu-button {
+  color: var(--text-color);
+}
+
+.header__theme-menu-button_active {
+  outline: 1px solid var(--text-color);
+}
+
+.header__theme-menu-button:hover {
+  outline: 1px solid var(--text-color-second);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+  border-bottom: 1px solid var(--text-color);
+}
