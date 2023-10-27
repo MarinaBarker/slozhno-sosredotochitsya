@@ -85,6 +85,10 @@
 }
 }
 
+.page {
+  background-color: var(--bg-color);
+}
+
 .decorated-zone::before {
   border-inline-end: 1px solid var(--text-color);
   border-block-start: 1px solid var(--text-color);
