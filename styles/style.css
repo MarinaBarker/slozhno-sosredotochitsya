@@ -324,7 +324,6 @@ a:focus-visible {
     grid-template-rows: min-content auto 1fr;
     min-height: 768px;
     padding-block: 20px;
-    outline: 1px solid green;
   }
 
   .header__theme-menu-list {
