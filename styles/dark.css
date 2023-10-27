@@ -79,7 +79,7 @@
     --focus-color: #DB00FF;
     --bg-image: url(../images/cover-image-dark.png);
 }
-}
+
 
 .page {
   background-color: var(--bg-color);
@@ -136,4 +136,5 @@
 .header__theme-menu-button:focus {
   outline: none;
   border-bottom: 1px solid var(--accent-color);
+}
 }
