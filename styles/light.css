@@ -16,6 +16,8 @@
   --focus-color: #FFC2E6;
   --shadow-color: #FF0070;
   --bg-image: url(../images/cover-image-light.png);
+
+  background-color: var(--bg-color);
 }
 
 .theme_light .decorated-zone::before {
