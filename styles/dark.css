@@ -9,6 +9,7 @@
   --accent-color: #ff0070;
   --accent-color-second: #ff007066 ;
   --focus-color: #DB00FF;
+  --bg-image: url(../images/cover-image-dark.png);
 } 
 
 .page.theme_dark {
@@ -17,7 +18,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--bg-image);
   background-attachment: fixed; 
 }
 
