@@ -5,5 +5,7 @@
   --accent-color: #FF0070;
   --accent-color-second: #ff007066;
   --focus-color: #DB00FF;
+  --corner-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --main-gap: 20px;
 }

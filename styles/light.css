@@ -1,33 +1,14 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
   --bg-color: #fff1f7;
   --text-color: #353430;
   --text-color-second: #32312D66;
   --accent-color: #FF8DCB;
   --focus-color: #FFC2E6;
   --shadow-color: #FF0070;
+  --corner-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
 
   background-color: var(--bg-color);
-}
-
-.theme_light .decorated-zone::before {
-  border-inline-end: 1px solid var(--text-color);
-  border-block-start: 1px solid var(--text-color);
-}
-
-.theme_light .decorated-zone::after {
-  border-inline-start: 1px solid var(--text-color);
-  border-block-end: 1px solid var(--text-color);
 }
 
 .theme_light .decorated {
@@ -81,6 +62,7 @@
   --accent-color: #FF8DCB;
   --focus-color: #FFC2E6;
   --shadow-color: #FF0070;
+  --corner-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -90,13 +72,13 @@
 }
 
 .decorated-zone::before {
-  border-inline-end: 1px solid var(--text-color);
-  border-block-start: 1px solid var(--text-color);
+  border-inline-end: 1px solid var(--corner-color);
+  border-block-start: 1px solid var(--corner-color);
 }
 
 .decorated-zone::after {
-  border-inline-start: 1px solid var(--text-color);
-  border-block-end: 1px solid var(--text-color);
+  border-inline-start: 1px solid var(--corner-color);
+  border-block-end: 1px solid var(--corner-color);
 }
 
 .decorated {
