@@ -8,7 +8,7 @@
   --corner-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
 
-  background-color: var(--bg-color);
+  background-color: var(--bg-color, #fff1f7);
 }
 
 .theme_light .decorated {
@@ -68,7 +68,7 @@
 
 
 .page {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color, #fff1f7);
 }
 
 .decorated-zone::before {
