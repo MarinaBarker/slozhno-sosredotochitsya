@@ -4,17 +4,13 @@
   --accent-color: #ff0070;
   --accent-color-second: #ff007066 ;
   --focus-color: #DB00FF;
+  --shadow-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
   --corner-color: #ff0070;
 }
 
 .theme_dark .decorated {
   display: block;
-}
-
-.theme_dark .header__title {
-  color: var(--focus-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .theme_dark .title {
@@ -27,11 +23,6 @@
 
 .theme_dark .title-decor {
   color: var(--bg-color);
-}
-
-.theme_dark .footer-title {
-  color: var(--focus-color);
-  text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
 .theme_dark .header__theme-menu-button {

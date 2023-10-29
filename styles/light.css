@@ -8,6 +8,7 @@
   --corner-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
 
+  background-image: var(--bg-image);
   background-color: var(--bg-color, #fff1f7);
 }
 
@@ -68,6 +69,7 @@
 
 
 .page {
+  background-image: var(--bg-image);
   background-color: var(--bg-color, #fff1f7);
 }
 
