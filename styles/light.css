@@ -12,7 +12,7 @@
 }
 
 .theme_light .page {
-  background-image: var(--bg-image, #fff1f7);
+  background-image: var(--bg-image);
   background-color: var(--bg-color, #fff1f7);
 }
 
@@ -32,12 +32,6 @@
   --corner-color: #353430;
   --hover-color: #32312D66;
   --bg-image: url(../images/cover-image-light.png);
-}
-
-
-.page {
-  background-image: var(--bg-image, #fff1f7);
-  background-color: var(--bg-color, #fff1f7);
 }
 
 .decorated {
