@@ -12,7 +12,7 @@
 }
 
 .theme_light .page {
-  background-image: var(--bg-image);
+  background-image: var(--bg-image, #fff1f7);
   background-color: var(--bg-color, #fff1f7);
 }
 
@@ -36,7 +36,7 @@
 
 
 .page {
-  background-image: var(--bg-image);
+  background-image: var(--bg-image, #fff1f7);
   background-color: var(--bg-color, #fff1f7);
 }
 
