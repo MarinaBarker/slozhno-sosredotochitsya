@@ -1,14 +1,14 @@
 .page.theme_light {
   --bg-color: #fff1f7;
   --text-color: #353430;
-  --text-color-second: #32312D66;
-  --accent-color: #FF8DCB;
-  --focus-color: #FFC2E6;
-  --shadow-color: #FF0070;
+  --text-color-second: #32312d66;
+  --accent-color: #ff8dcb;
+  --focus-color: #ffc2e6;
+  --shadow-color: #ff0070;
   --title-color: #353430;
   --corner-color: #353430;
-  --hover-color: #32312D66;
-  --bg-image: url(../images/cover-image-light.png); 
+  --hover-color: #32312d66;
+  --bg-image: url(../images/cover-image-light.png);
 
   background-image: var(--bg-image);
   background-color: var(--bg-color, #fff1f7);
@@ -20,22 +20,22 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --text-color-second: #32312D66;
-  --accent-color: #FF8DCB;
-  --focus-color: #FFC2E6;
-  --shadow-color: #FF0070;
-  --title-color: #353430;
-  --corner-color: #353430;
-  --hover-color: #32312D66;
-  --bg-image: url(../images/cover-image-light.png);
+      --bg-color: #fff1f7;
+      --text-color: #353430;
+      --text-color-second: #32312d66;
+      --accent-color: #ff8dcb;
+      --focus-color: #ffc2e6;
+      --shadow-color: #ff0070;
+      --title-color: #353430;
+      --corner-color: #353430;
+      --hover-color: #32312d66;
+      --bg-image: url(../images/cover-image-light.png);
 
-  background-image: var(--bg-image);
-  background-color: var(--bg-color, #fff1f7);
-}
+      background-image: var(--bg-image);
+      background-color: var(--bg-color, #fff1f7);
+  }
 
-.decorated {
-  display: none;
-}
+  .decorated {
+      display: none;
+  }
 }
