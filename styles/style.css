@@ -335,10 +335,6 @@
       grid-column: 2/4;
       grid-row: 3/4;
   }
-
-  .footer {
-      min-height: 1024px;
-  }
 }
 
 @media (width >= 1024px) {
@@ -479,10 +475,6 @@
 
   .image-item:last-child {
       grid-column: 2/4;
-  }
-
-  .footer {
-      min-height: 768px;
   }
 
   .footer-title {
